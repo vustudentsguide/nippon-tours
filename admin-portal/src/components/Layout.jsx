@@ -19,7 +19,7 @@ export default function Layout({ onLogout }) {
           <div className="flex items-center gap-2">
             <MapPin className="text-blue-600 w-6 h-6" />
             <div>
-              <p className="font-bold text-gray-900 text-sm">Nippon Tours</p>
+              <p className="font-bold text-gray-900 text-sm">Meiji Tours</p>
               <p className="text-xs text-gray-400">Admin Portal</p>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function Layout({ onLogout }) {
       <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <MapPin className="text-blue-600 w-5 h-5" />
-          <span className="font-bold text-gray-900 text-sm">Nippon Tours Admin</span>
+          <span className="font-bold text-gray-900 text-sm">Meiji Tours Admin</span>
         </div>
         <button onClick={() => setMobileOpen(!mobileOpen)}>
           {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
